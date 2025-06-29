@@ -15,7 +15,7 @@ const About = () => {
             });
           }, []);
     return (
-    <div data-aos="fade-up" className="dark:bg-black dark:text-white bg-[url('/third-bg.png')] bg-cover bg-center  ">
+    <div data-aos="fade-up" className="dark:bg-black dark:text-white dark:bg-none bg-[url('/third-bg.png')] bg-cover bg-center  ">
         <div className='flex justify-end items-center pt-[100px] pb-[30px] w-full   md:w-10/12  lg:w-8/12 mx-auto'>
 
      {/* part 1  */}
