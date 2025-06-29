@@ -27,7 +27,7 @@ const BannarSection2 = () => {
                 </div>
                 <div className='col-span-11 lg:col-span-9'>
                     <p className='w-full md:w-9/12 lg:w-7/11 leading-7' >Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.</p>
-                    <div className='pt-8'>
+                    <div className='pt-12'>
                         <PrimaryButton logo={<IoCall />} text='Schedule a Call'></PrimaryButton>
                         
                     </div>

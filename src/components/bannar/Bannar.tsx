@@ -4,7 +4,7 @@ import BannarSection2 from './BannarSection2';
 
 const Bannar = () => {
     return (
-        <div className=" h-[880px] mx-auto bg-[url('/bannar.png')] bg-center bg-cover">
+        <div className="min-h-screen  pt-12 md:pt-0 mx-auto bg-[url('/bannar.png')] bg-center bg-cover">
             <BannarSection1></BannarSection1>
             <BannarSection2></BannarSection2>
             

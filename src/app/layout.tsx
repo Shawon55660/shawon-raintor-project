@@ -26,12 +26,13 @@ export default function RootLayout({
       <body
       style={{ fontFamily: 'Sporting Grotesque, sans-serif' }}
       >
-        <div className="container relative   mx-auto">
-          <div className="sticky top-0 z-50 backdrop-blur-lg">
+        <div className=" relative   mx-auto">
+          <div className="sticky container top-0 z-50 backdrop-blur-lg">
         <Navbar></Navbar>
         </div>
-         </div>
+        
        <div className=""> {children}</div>
+        </div>
        
       </body>
     </html>
