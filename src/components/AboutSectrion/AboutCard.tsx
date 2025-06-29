@@ -9,7 +9,7 @@ interface AboutcardProps{
 const Aboutcard:React.FC<AboutcardProps> = ({bgColor,text,textColor,borderColor}) => {
     return (
         <div>
-            <button className={`${bgColor} ${textColor} ${borderColor} rounded-full px-5 border-2  py-3`}>{text}</button>
+            <button className={`${bgColor} ${textColor} ${borderColor}  rounded-full px-12 border-2  py-6`}>{text}</button>
             
         </div>
     );

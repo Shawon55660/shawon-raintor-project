@@ -1,5 +1,6 @@
 import React from 'react';
 import SecondaryButton from '../button/SeconddaryButton';
+import Aboutcard from './AboutCard';
 
 
 
@@ -21,20 +22,21 @@ we get to know each other and recommend the best course of
 action.
             </p>
              {/* part 2 */}
-            {/* <div className='grid grid-cols-12 bg-red-400 py-4 h-[20vh]'>
+            <div className='lg:grid grid-cols-12  py-4 lg:h-[250px]'>
 
-                <p className='col-span-3 '>PREVIOUSLY WORKED ON</p>
-                <div className='col-span-9 relative'>
-                    <div className='absolute'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
-                    <div className='absolute top-[-4]] left-6'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
-                    <div className='absolute'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
-                    <div className='absolute'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
-                    <div className='absolute'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
-                    <div className='absolute'><Card bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Card></div>
+                <p className='lg:col-span-4 pb-12 lg:pb-0 flex items-center font-bold justify-center'>PREVIOUSLY <br /> WORKED ON</p>
+                <div className='flex flex-wrap gap-4 justify-around lg:block lg:col-span-8  relative'>
+                    <div className='lg:absolute lg:bottom-0 '><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='CSS WINNER' textColor='text-black'></Aboutcard></div>
+                    <div className='lg:absolute lg:bottom-[67px] lg:rotate-[16deg] lg:left-28'><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='"Awwwards' textColor='text-black'></Aboutcard></div>
+                    <div className='lg:absolute lg:bottom-2 lg:left-[300px] lg:rotate-[-8deg] '><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='/thoughtworks' textColor='text-black'></Aboutcard></div>
+                     <div className='lg:absolute lg:left-[470px]  lg:bottom-[92px]'><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='facebook' textColor='text-black'></Aboutcard></div>
+                    <div className='lg:absolute lg:left-[531px] lg:bottom-0'><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='AUTODESK' textColor='text-black'></Aboutcard></div>
+                   
+                    <div className='lg:absolute  lg:bottom-[41px] lg:rotate-[28deg] lg:right-22'><Aboutcard bgColor='bg-transparent' borderColor='border-black' text='CSSDesignAwards' textColor='text-black'></Aboutcard></div>
                 
                   
                 </div>
-            </div> */}
+            </div>
      
     </div>
     );
