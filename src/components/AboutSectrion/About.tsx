@@ -5,8 +5,8 @@ import SecondaryButton from '../button/SeconddaryButton';
 
 const About = () => {
     return (
-    <div className="bg-[url('/bannar.png')] bg-right-top  bg-no-repeat  ">
-        <div className='flex justify-end items-center pt-[100px] pb-[30px]  md:w-10/12  lg:w-8/12 mx-auto'>
+    <div className="bg-[url('/third-bg.jpg')] bg-cover bg-center   bg-transparent  ">
+        <div className='flex justify-end items-center pt-[100px] pb-[30px] w-full   md:w-10/12  lg:w-8/12 mx-auto'>
 
      {/* part 1  */}
             <SecondaryButton text='About'textColor='text-black' borderColor='border-black'></SecondaryButton>
