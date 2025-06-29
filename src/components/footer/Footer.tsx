@@ -1,8 +1,17 @@
-import React from 'react';
+"use client";
+import React ,{ useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 800,
+          once: false, 
+        });
+      }, []);
     return (
-        <div className=' bg-[#141414] py-[40px] text-white rounded-md px-[40px]'>
+        <div data-aos="fade-up" className=' bg-[#141414] py-[40px] text-white rounded-md px-[40px]'>
         <div className='lg:grid grid-cols-12 py-8'>
         <div className='col-span-6 '> <h2 className='uppercase text-xl font-extrabold text-[#C5FF41]'>devlop.me</h2></div>
         <div className='col-span-6'>

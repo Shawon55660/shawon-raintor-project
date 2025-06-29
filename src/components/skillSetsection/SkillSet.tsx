@@ -1,15 +1,21 @@
-import React from 'react';
-
-
+"use client";
+import React ,{ useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi';
-
 import { FaReact } from 'react-icons/fa';
 import SkillCard from './SkillCard';
 import SecondaryButton from '../button/SeconddaryButton';
 
 const SkillSet = () => {
+      useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false, 
+    });
+  }, []);
     return (
-        <div className=' bg-[#141414] rounded-md py-[40px] px-[40px]'>
+        <div data-aos="fade-up"  className=' bg-[#141414] rounded-md py-[40px] px-[40px]'>
              {/* SecondaryButton is here */}
             <div><SecondaryButton text='Why Choose me'textColor='text-white' borderColor='border-white' ></SecondaryButton></div>
            {/* main content start  */}

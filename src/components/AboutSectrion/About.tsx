@@ -1,12 +1,21 @@
-import React from 'react';
+"use client";
+import React ,{ useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import SecondaryButton from '../button/SeconddaryButton';
 import Aboutcard from './AboutCard';
 
 
 
 const About = () => {
+     useEffect(() => {
+            AOS.init({
+              duration: 800,
+              once: false, 
+            });
+          }, []);
     return (
-    <div className="dark:bg-black dark:bg-none dark:text-white bg-[url('/third-bg.png')] bg-cover bg-center  ">
+    <div data-aos="fade-up" className="dark:bg-black dark:text-white bg-[url('/third-bg.png')] bg-cover bg-center  ">
         <div className='flex justify-end items-center pt-[100px] pb-[30px] w-full   md:w-10/12  lg:w-8/12 mx-auto'>
 
      {/* part 1  */}

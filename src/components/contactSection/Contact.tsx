@@ -1,6 +1,7 @@
-import React from 'react';
-
-
+"use client";
+import React ,{ useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { IoCall, IoMail } from 'react-icons/io5';
 import { BsSendFill } from 'react-icons/bs';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -9,8 +10,14 @@ import SecondaryButton from '../button/SeconddaryButton';
 import PrimaryButton from '../button/PrimaryButton';
 
 const Contact = () => {
+  useEffect(() => {
+          AOS.init({
+            duration: 800,
+            once: false, 
+          });
+        }, []);
     return (
-        <div  className="dark:bg-black dark:bg-none bg-[url('/second-bg.png')]  bg-center bg-cover  ">
+        <div data-aos="fade-up" className="dark:bg-black dark:bg-none bg-[url('/second-bg.png')]  bg-center bg-cover  ">
             <div className='lg:grid grid-cols-12 py-8 lg:py-12 px-[40px]'>
                 <div className='col-span-8'>
                     <SecondaryButton text='Contact'textColor='text-black' borderColor='border-black'></SecondaryButton>
