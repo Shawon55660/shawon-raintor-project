@@ -27,7 +27,7 @@ export default function RootLayout({
       style={{ fontFamily: 'Sporting Grotesque, sans-serif' }}
       >
         <div className=" relative   mx-auto">
-          <div className="sticky container top-0 z-50 backdrop-blur-lg">
+          <div className="sticky container top-0 z-50 bg-white backdrop-blur-lg">
         <Navbar></Navbar>
         </div>
         
