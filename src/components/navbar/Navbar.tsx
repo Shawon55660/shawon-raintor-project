@@ -1,16 +1,21 @@
-import React from 'react';
 
-
+'use client'
 import { TfiArrowRight } from 'react-icons/tfi';
 import Link from 'next/link';
 import PrimaryButton from '../button/PrimaryButton';
+import ControlTheme from '../controlThem/ControlTheme';
+
+
+
+
 
 
 const Navbar = () => {
     const menu:string[] =['Home','About', 'Profile', 'Blog']
+      
     return (
-        <div className='sticky top-0 z-50'>
-           <div className="navbar  items-center rounded-b-[30px] max-w-[1410px] mx-auto h-[114px] md:h-auto">
+        <div className='  z-50'>
+           <div className="navbar   items-center rounded-b-[30px] mx-auto h-[114px] md:h-auto">
   <div className="navbar-start w-[20%] ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,6 +34,8 @@ const Navbar = () => {
     {menu.map((menuItem,index)=> <li className= 'px-2 lg:px-3' key={index}><Link className='' href={`/${menuItem}`} >{menuItem}</Link></li> )}
     </ul></div>
       <div className=''> <PrimaryButton logo={<TfiArrowRight />} text='Start Project'></PrimaryButton></div>
+      <div><ControlTheme></ControlTheme></div>
+       
   </div>
 
 </div>
