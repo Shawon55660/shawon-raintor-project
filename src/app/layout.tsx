@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import ThemeProvider from "@/contexts/ThemeProvider";
+import Footer from "@/components/footer/Footer";
 
 
 
@@ -34,7 +35,10 @@ export default function RootLayout({
         <Navbar></Navbar>
         </div>
         
-       <div className=""> {children}</div>
+       <main className=""> {children}</main>
+         {/* footer section start here  */}
+      <Footer></Footer>
+      {/* footer section end here  */}
       
         </div>
      </ThemeProvider>

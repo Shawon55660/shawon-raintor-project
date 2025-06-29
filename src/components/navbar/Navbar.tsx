@@ -1,5 +1,4 @@
 
-'use client'
 import { TfiArrowRight } from 'react-icons/tfi';
 import Link from 'next/link';
 import PrimaryButton from '../button/PrimaryButton';
@@ -11,7 +10,8 @@ import ControlTheme from '../controlThem/ControlTheme';
 
 
 const Navbar = () => {
-    const menu:string[] =['Home','About', 'Profile', 'Blog']
+    const menu:{ page: string; menuBar: string }[] =[{page:'/',menuBar:'Home'},{page:'/About',menuBar:'About'},{page:'/Portfolio',menuBar:'Portfolio'},{page:'/Blog',menuBar:'Blog'}]
+   
       
     return (
         <div className='  z-50'>
@@ -24,14 +24,14 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        {menu.map((menuItem,index)=> <li key={index}><Link className='' href={`/${menuItem}`} >{menuItem}</Link></li> )}
+        {menu.map((menuItem,index)=> <li key={index}><Link className='capitalize' href={`${menuItem.page}`} >{menuItem.menuBar}</Link></li> )}
       </ul>
     </div>
     <a className="font-extrabold text-xl">DEVLOP.ME</a>
   </div>
   <div className="navbar-end w-[80%] ">
     <div className='hidden lg:flex'><ul className="menu menu-horizontal px-3 lg:px-6">
-    {menu.map((menuItem,index)=> <li className= 'px-2 lg:px-3' key={index}><Link className='' href={`/${menuItem}`} >{menuItem}</Link></li> )}
+    {menu.map((menuItem,index)=> <li className= 'px-2 lg:px-3' key={index}><Link className='capitalize' href={`${menuItem.page}`} >{menuItem.menuBar}</Link></li> )}
     </ul></div>
       <div className=''> <PrimaryButton logo={<TfiArrowRight />} text='Start Project'></PrimaryButton></div>
       <div><ControlTheme></ControlTheme></div>

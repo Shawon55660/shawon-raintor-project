@@ -1,8 +1,6 @@
 import About from "@/components/AboutSectrion/About";
 import Bannar from "@/components/bannar/Bannar";
 import Contact from "@/components/contactSection/Contact";
-import Footer from "@/components/footer/Footer";
-
 import SkillSet from "@/components/skillSetsection/SkillSet";
 import WorkProcess from "@/components/workProcessSection/WorkProcess";
 
@@ -29,9 +27,7 @@ export default function Home() {
       {/* contact section start here anyone try to contat with us   */}
       <Contact></Contact>
       {/* contact section end here  */}
-      {/* footer section start here  */}
-      <Footer></Footer>
-      {/* footer section end here  */}
+    
 
   
      

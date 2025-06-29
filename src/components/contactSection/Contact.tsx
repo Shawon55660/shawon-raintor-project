@@ -15,7 +15,7 @@ const Contact = () => {
                 <div className='col-span-8'>
                     <SecondaryButton text='Contact'textColor='text-black' borderColor='border-black'></SecondaryButton>
                     <div className='flex items-center font-bold text-3xl lg:text-6xl  lg:py-8 py-4 lg:leading-[100px] leading-[60px] justify-between'>
-                    <h1 className='dark:text-white'>Interested in  together? <span className='bg-[#000000]  text-white rounded-lg px-2'>work</span>  </h1>
+                    <h1 className='dark:text-white'>Interested in  together? <span className='bg-[#000000] dark:text-black dark:bg-white text-white rounded-lg px-2'>work</span>  </h1>
 
                 </div>
                 <p className='lg:w-9/12 pr-12 dark:text-white leading-7'>We start every new client interaction with an in-depth discovery call where

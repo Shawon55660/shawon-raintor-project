@@ -24,7 +24,7 @@ const SkillSet = () => {
             </div>
 
             {/* section card  */}
-           <div className=' lg:flex  gap-5'>
+           <div className=' lg:flex  gap-8'>
              <SkillCard logo={<FaReact />} header='HTML & CSS' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SkillCard>
              <SkillCard logo={<FaReact />} header='Javascript' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SkillCard>
              <SkillCard logo={<FaReact />} header='Webflow' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SkillCard>
