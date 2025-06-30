@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# shawon-raintor-project
 
-## Getting Started
+ **Live Demo:** [https://incomparable-cassata-b08876.netlify.app/](https://incomparable-cassata-b08876.netlify.app/)  
+ **GitHub Repo:** [https://github.com/Shawon55660/shawon-raintor-project](https://github.com/Shawon55660/shawon-raintor-project)
 
-First, run the development server:
+---
 
+## Overview
+
+`shawon-raintor-project` is a modern, fully responsive web application built using **Next.js 15**, **React 19**, and **Tailwind CSS 4**. The project features smooth scroll animations with AOS, stylish icons via React Icons, and a clean, accessible design powered by DaisyUI.
+
+---
+
+##  Tech Stack
+
+- **Next.js 15.3.4 (Turbopack)**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4.1**
+- **DaisyUI**
+- **AOS (Animate On Scroll)**
+- **React Icons**
+- **ESLint**
+
+---
+
+##  Features
+
+-  Fully responsive (mobile-first design)
+-  Dark/light theme support (via DaisyUI)
+-  Smooth scroll animations (AOS)
+-  SEO-friendly structure
+-  Accessible markup with ARIA roles and semantic HTML
+-  Built using the latest Next.js App Router with Turbopack
+
+---
+
+## 🛠 Installation
+
+Follow these steps to set up and run the project locally:
+
+###  Clone the repository
 ```bash
+git clone https://github.com/Shawon55660/shawon-raintor-project.git
+cd shawon-raintor-project
+### setup
+Install dependencies
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 to view it in the browser.
+npm run build
+npm run start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+ ├── app/             # App Router pages, layouts
+ ├── components/      # Reusable components
+ ├── styles/          # Global styles
+ └── ...
+tailwind.config.js     # Tailwind configuration
+postcss.config.js      # PostCSS configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Dependencies
+"next": "15.3.4",
+"react": "^19.0.0",
+"react-dom": "^19.0.0",
+"aos": "^2.3.4",
+"react-icons": "^5.5.0",
+"tailwindcss": "^4.1.11",
+"daisyui": "^5.0.43",
+"typescript": "^5"
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
