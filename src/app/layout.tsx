@@ -14,6 +14,9 @@ import Footer from "@/components/footer/Footer";
 export const metadata: Metadata = {
   title: "Shawon-Raintor-project",
   description: "Made this site for assignment",
+  icons: {
+    icon: '/favIcon.png',
+  },
 };
 
 export default function RootLayout({

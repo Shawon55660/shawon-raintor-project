@@ -1,4 +1,4 @@
-import React from 'react';
+'use client'
 import { IoCall } from 'react-icons/io5';
 import { TfiLayoutLineSolid } from 'react-icons/tfi';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
