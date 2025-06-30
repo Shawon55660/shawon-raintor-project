@@ -8,6 +8,7 @@ import Form from './Form';
 import { IoCall } from 'react-icons/io5';
 
 const Contact = () => {
+  //use for Animation 
   useEffect(() => {
     AOS.init({
       duration: 800,

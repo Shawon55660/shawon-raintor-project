@@ -6,6 +6,7 @@ import BannarSection1 from './BannarSection1';
 import BannarSection2 from './BannarSection2';
 
 const Bannar = () => {
+  //use for Animation 
     useEffect(() => {
         AOS.init({
           duration: 800,

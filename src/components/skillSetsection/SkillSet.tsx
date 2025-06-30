@@ -8,6 +8,7 @@ import SkillCard from './SkillCard';
 import SecondaryButton from '../button/SeconddaryButton';
 
 const SkillSet = () => {
+    //use for Animation 
     useEffect(() => {
         AOS.init({
             duration: 800,
