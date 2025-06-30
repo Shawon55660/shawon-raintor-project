@@ -1,3 +1,4 @@
+"use client"
 import About from "@/components/AboutSectrion/About";
 import Bannar from "@/components/bannar/Bannar";
 import Contact from "@/components/contactSection/Contact";
