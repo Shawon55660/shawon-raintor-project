@@ -6,7 +6,7 @@ interface AboutcardProps {
 }
 const Aboutcard: React.FC<AboutcardProps> = ({ text }) => {
     return (
-        <div data-aos="fade-up" >
+        <div  >
             <button className={`  rounded-full px-12 border-2  py-6`}>{text}</button>
 
         </div>

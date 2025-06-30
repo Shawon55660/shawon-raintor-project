@@ -39,19 +39,19 @@ const About = () => {
                     <p className='lg:col-span-4 pb-12 lg:pb-0 flex items-center font-bold justify-center'>PREVIOUSLY <br /> WORKED ON</p>
                     <div className='flex flex-wrap gap-4 justify-around lg:block lg:col-span-8  relative'>
                        {/* card 1  */}
-                        <div className=' dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-0 '><Aboutcard text='CSS WINNER' ></Aboutcard></div>
+                        <div data-aos="fade-up" className=' dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-0 '><Aboutcard text='CSS WINNER' ></Aboutcard></div>
                         {/* card 2  */}
-                        <div className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-[67px] lg:rotate-[16deg] lg:left-28'><Aboutcard text='"Awwwards' ></Aboutcard></div>
+                        <div data-aos="fade-up" className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-[67px] lg:rotate-[16deg] lg:left-28'><Aboutcard text='"Awwwards' ></Aboutcard></div>
                        {/* card 3  */}
-                        <div className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-2 lg:left-[300px] lg:rotate-[-8deg] '><Aboutcard text='/thoughtworks' ></Aboutcard></div>
+                        <div data-aos="fade-up" className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:bottom-2 lg:left-[300px] lg:rotate-[-8deg] '><Aboutcard text='/thoughtworks' ></Aboutcard></div>
                         {/* card 4  */}
-                         <div className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:left-[470px]  lg:bottom-[92px]'><Aboutcard text='facebook' ></Aboutcard></div>
+                         <div data-aos="fade-up" className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:left-[470px]  lg:bottom-[92px]'><Aboutcard text='facebook' ></Aboutcard></div>
                        
                         {/* card 5  */}
-                        <div className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:left-[531px] lg:bottom-0'><Aboutcard text='AUTODESK' ></Aboutcard></div>
+                        <div data-aos="fade-up" className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute lg:left-[531px] lg:bottom-0'><Aboutcard text='AUTODESK' ></Aboutcard></div>
 
                        {/* card 6  */}
-                        <div className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute  lg:bottom-[41px] lg:rotate-[28deg] lg:right-22'><Aboutcard text='CSSDesignAwards' ></Aboutcard></div>
+                        <div data-aos="fade-up" className='dark:bg-white dark:text-black dark:rounded-full dark:border-white hover:text-white hover:bg-black transition-all hover:rounded-full lg:absolute  lg:bottom-[41px] lg:rotate-[28deg] lg:right-22'><Aboutcard text='CSSDesignAwards' ></Aboutcard></div>
 
 
                     </div>

@@ -1,4 +1,5 @@
 
+"use client"
 import { FaArrowRightLong } from 'react-icons/fa6';
 interface WorkCardProps{
   
